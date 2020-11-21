@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{54BFF84F-3C11-4E20-B9B4-0200B0E66617}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Aplication", "2. Aplication", "{BC89B3F4-2E22-4C73-9546-2819D63EE6DD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{BC89B3F4-2E22-4C73-9546-2819D63EE6DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{0BD893C3-A1BA-4F24-8F33-304751CAE6BB}"
 EndProject
@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Domain", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Infra", "CatalogoMarinho.Infra\CatalogoMarinho.Infra.csproj", "{809FF857-9A00-4518-B981-A12F003659D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMatinho.Tests", "CatalogoMatinho.Tests\CatalogoMatinho.Tests.csproj", "{BE80F8C7-C25D-49FE-B9E2-8D4D5C0EECE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Tests", "CatalogoMatinho.Tests\CatalogoMarinho.Tests.csproj", "{BE80F8C7-C25D-49FE-B9E2-8D4D5C0EECE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Aplication", "CatalogoMarinho.Aplication\CatalogoMarinho.Aplication.csproj", "{9817406F-4DD8-4215-827C-35D6E03394F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Application", "CatalogoMarinho.Aplication\CatalogoMarinho.Application.csproj", "{9817406F-4DD8-4215-827C-35D6E03394F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
