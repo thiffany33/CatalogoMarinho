@@ -4,5 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CatalogoMarinha.Domain\CatalogoMarinho.Domain.csproj" />
+    <ProjectReference Include="..\CatalogoMarinho.Infra\CatalogoMarinho.Infra.csproj" />
+  </ItemGroup>
+
 
 </Project>

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace CatalotoMarinha.API.Controllers
+namespace CatalogoMarinho.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

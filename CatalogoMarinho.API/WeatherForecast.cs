@@ -1,6 +1,6 @@
 using System;
 
-namespace CatalotoMarinha.API
+namespace CatalogoMarinho.API
 {
     public class WeatherForecast
     {

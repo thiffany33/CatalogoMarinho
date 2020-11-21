@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infra", "4.0 Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.0 Tests", "5.0 Tests", "{5C39E972-022A-483C-B9E5-42DB1C061DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.API", "CatalotoMarinha.API\CatalogoMarinho.API.csproj", "{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Domain", "CatalogoMarinha.Domain\CatalogoMarinho.Domain.csproj", "{151E36DC-BE77-4CD1-9BD1-3AF366325F14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Infra", "CatalogoMarinho.Infra\CatalogoMarinho.Infra.csproj", "{809FF857-9A00-4518-B981-A12F003659D8}"
@@ -23,16 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Tests", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.Application", "CatalogoMarinho.Aplication\CatalogoMarinho.Application.csproj", "{9817406F-4DD8-4215-827C-35D6E03394F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoMarinho.API", "CatalogoMarinho.API\CatalogoMarinho.API.csproj", "{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{151E36DC-BE77-4CD1-9BD1-3AF366325F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{151E36DC-BE77-4CD1-9BD1-3AF366325F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151E36DC-BE77-4CD1-9BD1-3AF366325F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,16 +45,20 @@ Global
 		{9817406F-4DD8-4215-827C-35D6E03394F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9817406F-4DD8-4215-827C-35D6E03394F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9817406F-4DD8-4215-827C-35D6E03394F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C4436275-0AF6-4C00-8D38-6FE7BF9A21D1} = {54BFF84F-3C11-4E20-B9B4-0200B0E66617}
 		{151E36DC-BE77-4CD1-9BD1-3AF366325F14} = {0BD893C3-A1BA-4F24-8F33-304751CAE6BB}
 		{809FF857-9A00-4518-B981-A12F003659D8} = {E5BCB1DD-1216-49D7-8335-940260D2B1B9}
 		{BE80F8C7-C25D-49FE-B9E2-8D4D5C0EECE1} = {5C39E972-022A-483C-B9E5-42DB1C061DE0}
 		{9817406F-4DD8-4215-827C-35D6E03394F7} = {BC89B3F4-2E22-4C73-9546-2819D63EE6DD}
+		{2FBE6DA5-6FD5-4B63-90DE-FCB910F56F26} = {54BFF84F-3C11-4E20-B9B4-0200B0E66617}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7130A12B-3376-4139-8C66-DCBF5092F853}

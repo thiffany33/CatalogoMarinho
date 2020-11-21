@@ -4,9 +4,8 @@ using System.Text;
 
 namespace CatalogoMarinho.Domain.Entities
 {
-    public class Animal
+    public class Animal: BaseEntity
     {
-        public Guid Id { get; set; }
         public int IdClasse { get; set; } //fk de ID da classe class 
         public string Sexo { get; set; }
         public string Migracao { get; set; }
