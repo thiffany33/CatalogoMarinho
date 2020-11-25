@@ -7,6 +7,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using Microsoft.EntityFrameworkCore;
 using CatalogoMarinho.API;
+using CatalogoMarinho.Infra;
 
 namespace CatalogoMarinho.API
 {
